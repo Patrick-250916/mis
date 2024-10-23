@@ -205,7 +205,8 @@ body{
 
 /* Languages section */
 .languages{
-    background: var(--color-bg);
+ background: var(--color-bg);
+ text-align: center;
 }
 .languages__container{
     display: flex;
@@ -371,7 +372,7 @@ body{
         justify-content: space-around;
     }
     .languages__picture{
-        width: 35%;
+        width: 48%;
         margin-bottom: 30px;
     }
     .footer__img{
