@@ -18,10 +18,11 @@
 }
 
 body{
-    min-width: 100vh;
+    min-height: 100vh;
     background-image: var(--url-imag);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     /* font-family: "Rubik Burned", system-ui; */
     font-family: sans-serif; 
     font-weight: 400;
