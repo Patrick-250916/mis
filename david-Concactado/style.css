@@ -6,6 +6,7 @@
     --gradient:linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     --gradient1:linear-gradient(135deg, #667eea86 0%, #764ba28e 100%);
     --url-imag:url("img/rosa-formas-curvas.jpg");
+    --url-montana: url(https://plus.unsplash.com/premium_photo-1672116453151-fc5f27b555db?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     --box-shadow:6px 6px 10px rgb(0,0,0,.6);
     --width:100%;
     --radius:8px;
@@ -19,16 +20,9 @@
 
 body{
     min-height: 100vh;
-    background-image: var(--url-imag);
+    background-image: var(--gradient1),var(--url-montana);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    /* font-family: "Rubik Burned", system-ui; */
-    font-family: sans-serif; 
-    font-weight: 400;
-    font-style: normal;
-    font-size: 24px;
-    
 }
 
 .form{
@@ -50,10 +44,13 @@ body{
     border: 1px solid #b39b9b;
     outline: none;
 }
-
+.input,
+.form__submit {
+  font-family: inherit;
+}
 .form__title{
     margin-bottom: 40px;
-
+    font-size: 2rem;
 }
 
 .form__message{
@@ -79,8 +76,6 @@ body{
 
 .form__submit:hove{
     background-image: var(--gradient1);
-    transition: background-image .3s;
-
 }
 
 @media screen and (max-width:768px){
