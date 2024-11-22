@@ -34,6 +34,7 @@ body{
     border-radius: var(--radius);
     box-shadow: var(--box-shadow);
     overflow: hidden;
+    font-family: "Raleway", sans-serif;
 }
 
 .input{
@@ -47,6 +48,7 @@ body{
 .input,
 .form__submit {
   font-family: inherit;
+  font-size: 1rem;
 }
 .form__title{
     margin-bottom: 40px;
